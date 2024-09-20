@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<!-- navigation bar -->
+<nav class="navbar">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.kO59teQO917pPYW5orasxgHaHa&pid=Api&P=0&h=180" alt="Chrome_logo" id="logo">
+    <ul id="menu">
+        <li><a href="#home" onmouseover="hover(this)" onmouseout="noHover(this)">Home</a></li>
+        <li><a href="#about" onmouseover="hover(this)" onmouseout="noHover(this)">About</a></li>
+        <li><a href="#skills" onmouseover="hover(this)" onmouseout="noHover(this)">Skills</a></li>
+        <li><a href="#contact" onmouseover="hover(this)" onmouseout="noHover(this)">Contact</a></li>
+    </ul>
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
+</nav>
+
+<!-- home -->
+<section id="home">
+    <p class="para">THIS IS TASK 01 OF PRODIGY-INFOTECH IN THE DOMAIN OF WEB DEVELOPMENT COMPLETED BY ABHISHEK SUNIL KADU.</p>
+</section>
+
+<!-- about -->
+<section id="about">
+    <h1 class="heading">About</h1>
+    <p class="para">Hello! I am a Computer Science student passionate about web development, AI, and problem-solving.</p>
+</section>
+
+<!-- skills -->
+<section id="skills">
+    <h1 class="heading">Skills</h1>
+    <ul id="service">
+        <li style="list-style: none">Web Development</li>
+        <li style="list-style: none">Data Structures and Algorithms</li>
+        <li style="list-style: none">Machine Learning</li>
+        <li style="list-style: none">Artificial Intelligence</li>
+        <li style="list-style: none">Problem Solving</li>
+    </ul>
+</section>
+
+<!-- contact -->
+<section id="contact">
+    <p class="heading2">Get in Touch</p>
+    <ul>
+        <li><a href="mailto:pqr123@gmail.com" id="mail" onmouseover="mailOver(this)" onmouseout="mailOut(this)">Send Email</a></li>
+        <li><img src="https://tse4.mm.bing.net/th?id=OIP.TIYnrsy6wV3TX312soEx5gHaHY&pid=Api&P=0&h=180" alt="phone" height="15" style="margin-right: 5px;"> +91 8530283963</li>
+        <li><img src="https://cdn4.iconfinder.com/data/icons/maps-and-location/128/Map__Location_large_dot_indicator_navigation-512.png" alt="location" height="18" style="margin-right: 5px;">Vadgaon Bk, Pune-411041, India</li>
+    </ul>
+</section>
+
+<footer>
+    <p id="center">&copy; 2024 Pune India</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
